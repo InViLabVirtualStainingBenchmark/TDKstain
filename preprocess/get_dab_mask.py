@@ -45,10 +45,10 @@ def get_dab_mask(ihc_rgb, if_blur=False):
 
 
 # %%
-ihc_dir = "[DATASET DIR]/train_IHC"
-dab_save_dir = "[DATASET DIR]/train_IHC_dab"
+ihc_dir = "./datasets/TDKstain-BCI/train_IHC"
+dab_save_dir = "./datasets/TDKstain-BCI/train_IHC_dab"
 os.makedirs(dab_save_dir, exist_ok=True)
-mask_save_dir = "[DATASET DIR]/train_IHC_dab_mask"
+mask_save_dir = "./datasets/TDKstain-BCI/train_IHC_dab_mask"
 os.makedirs(mask_save_dir, exist_ok=True)
 
 # %%

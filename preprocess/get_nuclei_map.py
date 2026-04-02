@@ -112,13 +112,13 @@ def get_dab_nuclei(ihc_dab_seg_mask):
     return ihc_dab_mask, ihc_dab_nuclei
 
 # %%
-ihc_dir = "[DATASET DIR]/train_IHC"
-dab_mask_dir = "[DATASET DIR]/train_IHC_dab_mask"
+ihc_dir = "./datasets/TDKstain-BCI/train_IHC"
+dab_mask_dir = "./datasets/TDKstain-BCI/train_IHC_dab_mask"
 
 # %%
-map_save_dir = "[DATASET DIR]/train_IHC_nuclei_map"
+map_save_dir = "./datasets/TDKstain-BCI/train_IHC_nuclei_map"
 os.makedirs(map_save_dir, exist_ok=True)
-overlay_save_dir = "[DATASET DIR]/train_IHC_overlay"
+overlay_save_dir = "./datasets/TDKstain-BCI/train_IHC_overlay"
 os.makedirs(overlay_save_dir, exist_ok=True)
 
 # %%
